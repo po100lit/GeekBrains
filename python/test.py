@@ -1,5 +1,5 @@
 def main(name):
-    print(f'Hi, {name}!')
+    print('Hi, {}!'.format(name))
 
 
 if __name__ == "__main__":
