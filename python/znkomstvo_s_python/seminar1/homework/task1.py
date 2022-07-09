@@ -5,7 +5,7 @@
 # 7 -> да
 # 1 -> нет
 
-def main():
+def main() -> object:
     num = None
     days_dict = {
         1: 'понедельник',
@@ -17,12 +17,12 @@ def main():
         7: 'воскресенье'
     }
     while num not in range(1, 8):
-        num = int(input('Введите номер дня недели от 1 до 7: '))
-    if num == 6 or num == 7:
-        print(f'{days_dict[num]} - выходной день')
-    else:
-        print(f'{days_dict[num]} - будний день')
+        try:
+            num = int(input('Введите номер дня недели от 1 до 7: '))
+        except ValueError:
+            print('Ведите цифру от 1 до 7')
+    return f'{days_dict[num]} - выходной день' if num == 6 or num == 7 else f'{days_dict[num]} - будний день'
 
 
 if __name__ == "__main__":
-    main()
+    print(main())
