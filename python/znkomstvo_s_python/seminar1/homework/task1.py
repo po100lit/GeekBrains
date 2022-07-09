@@ -4,6 +4,8 @@
 # 6 -> да
 # 7 -> да
 # 1 -> нет
+from termcolor import cprint
+
 
 def main() -> object:
     num = None
@@ -20,7 +22,7 @@ def main() -> object:
         try:
             num = int(input('Введите номер дня недели от 1 до 7: '))
         except ValueError:
-            print('Ведите цифру от 1 до 7')
+            cprint('Введите число!', 'red', attrs=['underline'])
     return f'{days_dict[num]} - выходной день' if num == 6 or num == 7 else f'{days_dict[num]} - будний день'
 
 

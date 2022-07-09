@@ -5,21 +5,29 @@
 # x=34; y=-30 -> 4
 # x=2; y=4-> 1
 # x=-34; y=-30 -> 3
+from termcolor import cprint
+
 
 def main():
     x, y = 0, 0
     while x == 0:
-        x = float(input('Введите координату X: '))
+        try:
+            x = float(input('Введите координату X не равную нулю: '))
+        except ValueError:
+            cprint('Введите число!', 'red', attrs=['underline'])
     while y == 0:
-        y = float(input('Введите координату Y: '))
+        try:
+            y = float(input('Введите координату Y не равную нулю: '))
+        except ValueError:
+            cprint('Введите число!', 'red', attrs=['underline'])
     if x > 0 and y > 0:
-        print('точка находится в I четверти')
+        cprint('точка находится в I четверти', 'blue')
     elif x < 0 < y:
-        print('точка находится в II четверти')
+        cprint('точка находится в II четверти', 'yellow')
     elif x < 0 and y < 0:
-        print('точка находится в III четверти')
+        cprint('точка находится в III четверти', 'magenta')
     else:
-        print('точка находится в IV четверти')
+        cprint('точка находится в IV четверти', 'yellow')
 
 
 if __name__ == "__main__":

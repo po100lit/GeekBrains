@@ -1,5 +1,7 @@
 # 4 - Напишите программу, которая по заданному номеру четверти,
 # показывает диапазон возможных координат точек в этой четверти (x и y).
+from termcolor import cprint
+
 
 def main():
     num = None
@@ -10,8 +12,11 @@ def main():
         4: 'X ∈ (0, +∞), Y ∈ (-∞, 0)'
     }
     while num not in range(1, 5):
-        num = int(input('Введите номер четверти декартовой плоскости: '))
-    print(f'Возможные координаты точки в {num} четверти: {possible_coordinates[num]}')
+        try:
+            num = int(input('Введите номер четверти (1-4): '))
+        except ValueError:
+            cprint('Введите число!', 'red', attrs=['underline'])
+    cprint(f'Возможные координаты точки в {num} четверти: {possible_coordinates[num]}', 'cyan')
 
 
 if __name__ == "__main__":
