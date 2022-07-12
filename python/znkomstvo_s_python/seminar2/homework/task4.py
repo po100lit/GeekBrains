@@ -4,7 +4,7 @@
 import time
 
 
-def random_number(from_number, to_number):
+def random_number(from_number, to_number):  # в границы поиска мы никогда не попадём)))
     now = str(time.time())
     rnd = float(now[::-1][:3]) / 1000
     return int(from_number + rnd * (to_number - from_number))
