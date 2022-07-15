@@ -11,9 +11,7 @@ def random_number(from_number, to_number):  # в границы поиска м�
 
 
 def main():
-    for i in range(10):
-        print(random_number(100, 1000), end=' ')
-        time.sleep(0.1)
+    random_number(100, 1000)
 
 
 if __name__ == "__main__":
