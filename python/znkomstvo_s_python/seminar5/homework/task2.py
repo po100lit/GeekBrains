@@ -26,9 +26,12 @@ def two_players_game_of_candies(candy_count: int, max_candy_takes: int) -> str:
     player_2 = input('Введите имя второго игрока: ')
     current_player = choice([player_1, player_2])  # Выбор кто ходит первым
     while candy_count > max_candy_takes:
-        print(f'На столе осталось {candy_count} конфет...')
+        print(f'\nНа столе осталось {candy_count} конфет...')
         while True:
-            take_candies = int(input(f'Сколько конфет берёт {current_player} (1-{max_candy_takes})?: '))
+            try:
+                take_candies = int(input(f'Сколько конфет берёт {current_player} (1-{max_candy_takes})?: '))
+            except ValueError:
+                print('Введите число')
             if 1 <= take_candies <= max_candy_takes:  # проверка, что игрок взял разрешенное количество конфет
                 break
         candy_count -= take_candies
@@ -52,10 +55,13 @@ def player_vs_npc_game_of_candies(candy_count: int, max_candy_takes: int) -> str
     player_2 = 'John Doe'
     current_player = choice([player_1, player_2])  # Выбор кто ходит первым
     while candy_count > max_candy_takes:
-        print(f'На столе осталось {candy_count} конфет...')
+        print(f'\nНа столе осталось {candy_count} конфет...')
         while True:
             if current_player == player_1:
-                take_candies = int(input(f'Сколько конфет берёт {current_player} (1-{max_candy_takes})?: '))
+                try:
+                    take_candies = int(input(f'Сколько конфет берёт {current_player} (1-{max_candy_takes})?: '))
+                except ValueError:
+                    print('Введите число')
             else:
                 take_candies = randint(1, max_candy_takes)
                 print(f'{current_player} берёт {take_candies} конфет')
@@ -82,10 +88,13 @@ def AI_vs_player_game_of_candies_v1(candy_count: int, max_candy_takes: int) -> s
     player_2 = 'John Doe'
     current_player = choice([player_1, player_2])  # Выбор кто ходит первым
     while candy_count > max_candy_takes:
-        print(f'На столе осталось {candy_count} конфет...')
+        print(f'\nНа столе осталось {candy_count} конфет...')
         while True:
             if current_player == player_1:
-                take_candies = int(input(f'Сколько конфет берёт {current_player} (1-{max_candy_takes}): '))
+                try:
+                    take_candies = int(input(f'Сколько конфет берёт {current_player} (1-{max_candy_takes}): '))
+                except ValueError:
+                    print('Введите число')
             # компьютер прикидывается дурачком и предпоследним ходом не оставляет шансов игроку победить
             else:
                 if (max_candy_takes + 1) < candy_count <= (max_candy_takes * 2 + 1):
@@ -116,10 +125,13 @@ def AI_vs_player_game_of_candies_v2(candy_count: int, max_candy_takes: int) -> s
     player_2 = 'John Doe'
     current_player = choice([player_1, player_2])  # Выбор кто ходит первым
     while candy_count > max_candy_takes:
-        print(f'На столе осталось {candy_count} конфет...')
+        print(f'\nНа столе осталось {candy_count} конфет...')
         while True:
             if current_player == player_1:
-                take_candies = int(input(f'Сколько конфет берёт {current_player} (1-{max_candy_takes}): '))
+                try:
+                    take_candies = int(input(f'Сколько конфет берёт {current_player} (1-{max_candy_takes}): '))
+                except ValueError:
+                    print('Введите число')
             # компьютер каждым своим ходом лишает игрока шанса на победу
             else:  # остаток конфет после хода компьютера всегда будет кратен {max_candy_takes + 1}
                 take_candies = candy_count - (candy_count // (max_candy_takes + 1)) * (max_candy_takes + 1)
@@ -139,8 +151,8 @@ def AI_vs_player_game_of_candies_v2(candy_count: int, max_candy_takes: int) -> s
 
 
 def main():
-    two_players_game_of_candies(2021, 28)
-    # player_vs_npc_game_of_candies(2021, 28)
+    # two_players_game_of_candies(2021, 28)
+    player_vs_npc_game_of_candies(2021, 28)
     # AI_vs_player_game_of_candies_v1(2021, 28)
     # AI_vs_player_game_of_candies_v2(2021, 28)
 

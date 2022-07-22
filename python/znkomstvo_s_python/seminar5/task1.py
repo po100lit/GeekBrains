@@ -48,7 +48,7 @@ def main():
     string_to_write = generate_result(polynomial)
     print(string_to_write)  # вспомогательный принт
     with open('task1.txt', 'w', encoding='utf-8') as file:
-        file.writelines(string_to_write)
+        file.write(string_to_write)
 
 
 if __name__ == '__main__':
