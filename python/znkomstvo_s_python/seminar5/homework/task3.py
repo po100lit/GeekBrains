@@ -18,12 +18,24 @@ from functools import reduce
 
 
 def generate_list_of_tuples(lst: list) -> list:
-    result = list(enumerate(lst, 1))
+    """
+    Принимает на вход список, формирует список кортежей с нумерацией по-порядку
+
+    @param lst: Список языков программирования
+    @return: Список кортежей (порядковый номер, язык программирования)
+    """
+    result = list(enumerate([x.upper() for x in lst], 1))
     print('Список кортежей:', result)  # служебный принт
     return result
 
 
-def filter_list(lst: list) -> list:
+def filter_list(lst: list) -> int:
+    """
+    Принимает на вход список кортежей, фильтрует по заданному условию, возвращает сумму фильтрованных данных
+
+    @param lst: Список кортежей из предыдущей функции
+    @return: Сумма очков слов отфильтрованного списка
+    """
     result_list = []
     for i in lst:
         sum_of_letters = 0
@@ -32,12 +44,8 @@ def filter_list(lst: list) -> list:
         if sum_of_letters % i[0] == 0:
             result_list.append((sum_of_letters, i[1]))
     print('Отфильтрованный список:', result_list)  # служебный принт
-    return result_list
-
-
-def sum_of_point(lst: list) -> int:
     result = reduce(lambda x, y: x + y, [x[0] for x in lst])
-    print('Сумма очков слов:', result)  # служебный принт
+    print('Сумма очков слов:', result)
     return result
 
 
@@ -45,8 +53,7 @@ def main():
     # www.charset.org/utf-8 у меня (в Казахстане) почему-то не открывается, порядковые номера беру из ord()
     programing_languages = ['python', 'java', 'swift', 'php', 'ruby', 'C++', 'kotlin']
     list_with_points = generate_list_of_tuples(programing_languages)
-    result_list = filter_list(list_with_points)
-    sum_of_point(result_list)
+    filter_list(list_with_points)
 
 
 if __name__ == "__main__":
