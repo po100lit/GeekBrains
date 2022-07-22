@@ -3,6 +3,7 @@
 
 def remove_words(text: str, contains: str) -> str:
     """
+    Удаляем слова по маске
 
     @param text: текст из которого нужно удалить слова
     @param contains: маска для поиска в удаляемом слове

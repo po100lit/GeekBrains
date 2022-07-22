@@ -44,6 +44,7 @@ def decompress_data(text: str) -> str:
 
 
 def main():
+    # программа "ломается", если в исходной строке содержатся цифры
     input_str = read_file('task4_in.txt')
     print('Исходный текст:', input_str)
     compressed_str = compress_data(input_str)

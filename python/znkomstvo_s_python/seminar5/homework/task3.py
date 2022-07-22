@@ -19,11 +19,12 @@ from functools import reduce
 
 def generate_list_of_tuples(lst: list) -> list:
     """
-    Принимает на вход список, формирует список кортежей с нумерацией по-порядку
+    Принимает на вход список, формирует список кортежей с нумерацией по-порядку, начиная с 1
 
     @param lst: Список языков программирования
     @return: Список кортежей (порядковый номер, язык программирования)
     """
+    # объединил создание списка с числами, создание кортежей, перевод языков в верхний регистр
     result = list(enumerate([x.upper() for x in lst], 1))
     print('Список кортежей:', result)  # служебный принт
     return result
@@ -44,8 +45,8 @@ def filter_list(lst: list) -> int:
         if sum_of_letters % i[0] == 0:
             result_list.append((sum_of_letters, i[1]))
     print('Отфильтрованный список:', result_list)  # служебный принт
-    result = reduce(lambda x, y: x + y, [x[0] for x in lst])
-    print('Сумма очков слов:', result)
+    result = reduce(lambda x, y: x + y, [x[0] for x in result_list])  # сумма фильтрованных очков
+    print('Сумма очков слов:', result)  # служебный принт
     return result
 
 
