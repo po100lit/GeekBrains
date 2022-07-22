@@ -58,7 +58,7 @@ def player_vs_npc_game_of_candies(candy_count: int, max_candy_takes: int) -> str
                 take_candies = int(input(f'Сколько конфет берёт {current_player} (1-{max_candy_takes})?: '))
             else:
                 take_candies = randint(1, max_candy_takes)
-                print(f'John Doe берёт {take_candies} конфет')
+                print(f'{current_player} берёт {take_candies} конфет')
             if 1 <= take_candies <= max_candy_takes:  # проверка, что игрок взял разрешенное количество конфет
                 break
         candy_count -= take_candies
@@ -92,7 +92,7 @@ def AI_vs_player_game_of_candies_v1(candy_count: int, max_candy_takes: int) -> s
                     take_candies = abs(max_candy_takes + 1 - candy_count)
                 else:
                     take_candies = randint(1, max_candy_takes)
-                print(f'John Doe берёт {take_candies} конфет')
+                print(f'{current_player} берёт {take_candies} конфет')
             if 1 <= take_candies <= max_candy_takes:  # проверка, что игрок взял разрешенное количество конфет
                 break
         candy_count -= take_candies
@@ -126,9 +126,9 @@ def AI_vs_player_game_of_candies_v2(candy_count: int, max_candy_takes: int) -> s
                 if take_candies == 0:  # игрок (случайно) оставил боту кратно {max_candy_takes + 1} конфет)))
                     print(f'Ты знаешь выигрышную стратегию?...')
                     take_candies = randint(1, 28)
-                    print(f'John Doe берёт {take_candies} конфет')
+                    print(f'{current_player} берёт {take_candies} конфет')
                 else:
-                    print(f'John Doe берёт {take_candies} конфет')
+                    print(f'{current_player} берёт {take_candies} конфет')
             if 1 <= take_candies <= max_candy_takes:  # проверка, что игрок взял разрешенное количество конфет
                 break
         candy_count -= take_candies
