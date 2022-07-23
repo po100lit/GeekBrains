@@ -5,8 +5,16 @@
 
 def main():
     lst = []
+    num = None
     for i in range(5):
-        lst.append(int(input('Enter number: ')))
+        while True:
+            try:
+                num = int(input('Введите целое число: '))
+            except ValueError:
+                print('Неверный ввод')
+            if num:
+                break
+        lst.append(num)
     max_num = lst[0]
     for i in lst:
         if i > max_num:

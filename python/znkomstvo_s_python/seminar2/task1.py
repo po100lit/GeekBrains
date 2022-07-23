@@ -4,7 +4,14 @@
 
 
 def main():
-    n = int(input('Enter number: '))
+    n = None
+    while True:
+        try:
+            n = int(input('Enter number: '))
+        except ValueError:
+            print('Неверный ввод!')
+        if n:
+            break
     for i in range(0, n):
         print((-3) ** i, end=' ')
 

@@ -10,7 +10,14 @@ def main():
     coord_list = []
     for i in [1, 2]:
         for j in ['X', 'Y']:
-            coord = float(input(f'Введите координату {j} точки {i}: '))
+            coord = None
+            while True:
+                try:
+                    coord = float(input(f'Введите координату {j} точки {i}: '))
+                except ValueError:
+                    print('Неверный ввод!')
+                if coord:
+                    break
             coord_list.append(coord)
     result = ((coord_list[2] - coord_list[0]) ** 2 + (coord_list[3] - coord_list[1]) ** 2) ** 0.5
     cprint(f'Координаты первой точки: ({coord_list[0]}, {coord_list[1]})', 'yellow')

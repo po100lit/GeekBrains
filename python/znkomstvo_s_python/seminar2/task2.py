@@ -3,7 +3,14 @@
 # n = 6: {1: 4, 2: 7, 3: 10, 4: 13, 5: 16, 6: 19}
 
 def main():
-    n = int(input())
+    n = None
+    while True:
+        try:
+            n = int(input())
+        except ValueError:
+            print('Неверный ввод!')
+        if n:
+            break
     num_dict = {}
     for i in range(1, n+1):
         num_dict[i] = 3*i+1

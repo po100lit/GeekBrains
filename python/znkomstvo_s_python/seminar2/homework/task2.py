@@ -14,7 +14,14 @@ def factorial(number):
 
 
 def main():
-    n = int(input('Введите натуральное число: '))
+    n = None
+    while True:
+        try:
+            n = int(input('Введите натуральное число: '))
+        except ValueError:
+            print('Неверный ввод!')
+        if n:
+            break
     lst = []
     for i in range(1, n + 1):
         lst.append(factorial(i))

@@ -4,10 +4,15 @@
 # 0,56 -> 11
 
 def main():
-    n = ''
-    while not n.replace('.', '').replace('-', '').isdigit():
-        n = input('Введите вещественное число: ')
-    n = n.replace('.', '').replace('-', '')
+    n = None
+    while True:
+        try:
+            n = float(input('Введите вещественное число: '))
+        except ValueError:
+            print('Неверный ввод!')
+        if n:
+            break
+    n = str(n).replace('.', '').replace('-', '')
     result = sum(map(int, n))
     print(result)
 

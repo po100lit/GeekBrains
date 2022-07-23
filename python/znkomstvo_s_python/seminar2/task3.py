@@ -8,7 +8,6 @@ def main():
     if len(s1) < len(s2):
         s1, s2 = s2, s1
     count = 0
-
     for i in range(0, len(s1) - len(s2)):
         if s2.lower() == s1[i:i + len(s2)].lower():
             count += 1

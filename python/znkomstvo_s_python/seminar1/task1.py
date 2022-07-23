@@ -6,8 +6,21 @@
 # 8, 9 -> нет
 
 def main():
-    a = int(input('Введите число: '))
-    b = int(input('Введите число: '))
+    a, b = None, None
+    while True:
+        try:
+            a = int(input('Введите 1 число: '))
+        except ValueError:
+            print('Неверный ввод')
+        if a:
+            break
+    while True:
+        try:
+            b = int(input('Введите 2 число: '))
+        except ValueError:
+            print('Неверный ввод')
+        if b:
+            break
     print(a ** 2 == b or b ** 2 == a)
 
 

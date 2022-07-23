@@ -7,7 +7,14 @@ from random import randint
 def product_elements() -> int:
     with open('indexes.txt', 'r', encoding='utf-8') as file:
         indexes = file.read().split('\n')
-    n = int(input('Введите длину списка: '))
+    n = None
+    while True:
+        try:
+            n = int(input('Введите длину списка: '))
+        except ValueError:
+            print('Неверный ввод!')
+        if n:
+            break
     my_list = []
     for i in range(n):
         my_list.append(randint(-n, n))
