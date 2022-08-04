@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3488e6e-a615-4b89-af62-d5a6f27d0d8e" name="Changes" comment="add main.py with GUI">
-      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/main.py" afterDir="false" />
+    <list default="true" id="b3488e6e-a615-4b89-af62-d5a6f27d0d8e" name="Changes" comment="update seminar7">
+      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/conversation_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/filik.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +51,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar9" />
+      <recent name="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar9\.venv" />
+      <recent name="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar7" />
       <recent name="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar7\seminar7" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="log" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.conversation_handler">
+    <configuration name="conversation_handler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GeekBrains" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +66,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/seminar7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar7\log.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/conversation_handler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="log" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="filik" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GeekBrains" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +87,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/seminar7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar7\log.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/filik.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,10 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.conversation_handler" />
+        <item itemvalue="Python.filik" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.task1" />
-        <item itemvalue="Python.log (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659347259757</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add seminar8">
+      <created>1659635590552</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659635590552</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update seminar7">
+      <created>1659635665122</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659635665122</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +235,8 @@
     <MESSAGE value="initial" />
     <MESSAGE value="configure log" />
     <MESSAGE value="add main.py with GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="add main.py with GUI" />
+    <MESSAGE value="add seminar8" />
+    <MESSAGE value="update seminar7" />
+    <option name="LAST_COMMIT_MESSAGE" value="update seminar7" />
   </component>
 </project>
