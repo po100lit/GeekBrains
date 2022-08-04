@@ -1,5 +1,5 @@
 import logging
-
+from config import *
 from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove, Update
 from telegram.ext import (
     Updater,
@@ -149,7 +149,7 @@ def cancel(update, _):
 
 if __name__ == '__main__':
     # Создаем Updater и передаем ему токен вашего бота.
-    updater = Updater('5238225700:AAGo86MOfTM2f75gOMKr2Q1jzjcL65SwCfM')
+    updater = Updater(TOKEN)
     # получаем диспетчера для регистрации обработчиков
     dispatcher = updater.dispatcher
 
