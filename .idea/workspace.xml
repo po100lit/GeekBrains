@@ -52,7 +52,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.test">
-    <configuration name="log (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="log" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GeekBrains" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,7 +64,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/seminar7/log.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar7\log.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +85,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar7\seminar7\log.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar7\log.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +106,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/seminar7/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar7\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +127,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/seminar7/task1.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar7\task1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
