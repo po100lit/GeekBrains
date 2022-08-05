@@ -1,5 +1,9 @@
+from load_data import *
+
+
 def main():
-    pass
+    print(all_tasks)
+    print(all_phones)
 
 
 if __name__ == "__main__":

@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3488e6e-a615-4b89-af62-d5a6f27d0d8e" name="Changes" comment="update seminar9">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/homework/load_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/homework/phones.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/homework/todo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GeekBrains.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GeekBrains.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/conversation_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/conversation_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/filik.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/filik.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/homework/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/homework/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,20 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/po100lit/Documents/GeekBrains",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/po100lit/Documents/GeekBrains/python/znkomstvo_s_python/seminar9/homework&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar9\homework" />
+      <recent name="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar8\homework" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\po100lit\Documents\GeekBrains\python\venv" />
       <recent name="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar9" />
+      <recent name="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar8\homework" />
       <recent name="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar9\.venv" />
       <recent name="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar7" />
-      <recent name="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar7\seminar7" />
     </key>
   </component>
   <component name="RunManager" selected="Python.conversation_handler">
@@ -96,6 +111,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GeekBrains" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/homework" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/homework/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GeekBrains" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,27 +145,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar7\main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GeekBrains" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/seminar7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar7\task1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,10 +177,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.conversation_handler" />
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.filik" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.task1" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +242,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659640730688</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update seminar8">
+      <created>1659684177910</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659684177910</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update seminar9">
+      <created>1659684221589</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659684221589</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +279,7 @@
     <MESSAGE value="add main.py with GUI" />
     <MESSAGE value="add seminar8" />
     <MESSAGE value="update seminar7" />
+    <MESSAGE value="update seminar8" />
     <MESSAGE value="update seminar9" />
     <option name="LAST_COMMIT_MESSAGE" value="update seminar9" />
   </component>

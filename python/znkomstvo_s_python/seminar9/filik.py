@@ -1,9 +1,9 @@
 from telegram import Update, Bot
 from telegram.ext import Updater, CommandHandler, Filters, MessageHandler
-from config import TOKEN
+import os
 
-bot = Bot(token=TOKEN)
-updater = Updater(token=TOKEN)
+bot = Bot(token=os.getenv('TOKEN'))
+updater = Updater(token=os.getenv('TOKEN'))
 dispatcher = updater.dispatcher
 
 

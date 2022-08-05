@@ -1,6 +1,6 @@
 import logging
-from config import *
-from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove, Update
+import os
+from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import (
     Updater,
     CommandHandler,
@@ -149,7 +149,7 @@ def cancel(update, _):
 
 if __name__ == '__main__':
     # Создаем Updater и передаем ему токен вашего бота.
-    updater = Updater(TOKEN)
+    updater = Updater(os.getenv('TOKEN'))
     # получаем диспетчера для регистрации обработчиков
     dispatcher = updater.dispatcher
 
