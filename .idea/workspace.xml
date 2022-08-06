@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3488e6e-a615-4b89-af62-d5a6f27d0d8e" name="Changes" comment="update seminar9">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/homework/load_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/homework/phones.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/homework/todo.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GeekBrains.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GeekBrains.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/conversation_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/conversation_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/filik.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/filik.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/homework/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar9/homework/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="b3488e6e-a615-4b89-af62-d5a6f27d0d8e" name="Changes" comment="hide TOKENs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -256,7 +245,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659684221589</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="hide TOKENs">
+      <created>1659701154475</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659701154475</updated>
+    </task>
+    <task id="LOCAL-00011" summary="hide TOKENs">
+      <created>1659701182210</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659701182210</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,6 +284,7 @@
     <MESSAGE value="update seminar7" />
     <MESSAGE value="update seminar8" />
     <MESSAGE value="update seminar9" />
-    <option name="LAST_COMMIT_MESSAGE" value="update seminar9" />
+    <MESSAGE value="hide TOKENs" />
+    <option name="LAST_COMMIT_MESSAGE" value="hide TOKENs" />
   </component>
 </project>
