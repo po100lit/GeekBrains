@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3488e6e-a615-4b89-af62-d5a6f27d0d8e" name="Changes" comment="hide TOKENs" />
+    <list default="true" id="b3488e6e-a615-4b89-af62-d5a6f27d0d8e" name="Changes" comment="add seminar6 GM">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -259,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659701182210</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add seminar6 GM">
+      <created>1659770250499</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659770250499</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,6 +294,7 @@
     <MESSAGE value="update seminar8" />
     <MESSAGE value="update seminar9" />
     <MESSAGE value="hide TOKENs" />
-    <option name="LAST_COMMIT_MESSAGE" value="hide TOKENs" />
+    <MESSAGE value="add seminar6 GM" />
+    <option name="LAST_COMMIT_MESSAGE" value="add seminar6 GM" />
   </component>
 </project>
