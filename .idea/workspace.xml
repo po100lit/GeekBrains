@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3488e6e-a615-4b89-af62-d5a6f27d0d8e" name="Changes" comment="add seminar6 GM">
+    <list default="true" id="b3488e6e-a615-4b89-af62-d5a6f27d0d8e" name="Changes" comment="обновил seminar10">
+      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar10/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GeekBrains.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GeekBrains.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,15 +41,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/po100lit/Documents/GeekBrains/python/znkomstvo_s_python/seminar9/homework&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/po100lit/Documents/GeekBrains/python/znkomstvo_s_python/seminar10/venv",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar9\homework" />
@@ -59,7 +63,7 @@
       <recent name="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar7" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.conversation_handler">
+  <component name="RunManager" selected="Python.main">
     <configuration name="conversation_handler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GeekBrains" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,13 +133,14 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="TOKEN" value="5238225700:AAGo86MOfTM2f75gOMKr2Q1jzjcL65SwCfM" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/seminar7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/znkomstvo_s_python/seminar10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\po100lit\Documents\GeekBrains\python\znkomstvo_s_python\seminar7\main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/znkomstvo_s_python/seminar10/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,13 +170,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.conversation_handler" />
+      <item itemvalue="Python.filik" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.test" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.conversation_handler" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.filik" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +280,28 @@
       <option name="project" value="LOCAL" />
       <updated>1659770250499</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="обновил ДЗ по семинарам">
+      <created>1660157376032</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660157376032</updated>
+    </task>
+    <task id="LOCAL-00014" summary="обновил gitignore">
+      <created>1660247593492</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660247593492</updated>
+    </task>
+    <task id="LOCAL-00015" summary="обновил seminar10">
+      <created>1660247616952</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660247616952</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,6 +328,9 @@
     <MESSAGE value="update seminar9" />
     <MESSAGE value="hide TOKENs" />
     <MESSAGE value="add seminar6 GM" />
-    <option name="LAST_COMMIT_MESSAGE" value="add seminar6 GM" />
+    <MESSAGE value="обновил ДЗ по семинарам" />
+    <MESSAGE value="обновил gitignore" />
+    <MESSAGE value="обновил seminar10" />
+    <option name="LAST_COMMIT_MESSAGE" value="обновил seminar10" />
   </component>
 </project>
