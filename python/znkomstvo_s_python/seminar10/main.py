@@ -36,7 +36,7 @@ def start(update, context):
 
 def player_name(update, context):
     """
-    Запрашиваем имя, начинаем игру
+    Получаем имя игрока, начинаем игру
     """
     global player_1, player_2, current_player
     player_1 = update.message.text
@@ -60,7 +60,7 @@ def take_move(update, context):  # ход игрока
                                      f'За раз можно взять от 1 до {max_candy_takes} конфет')
             return MOVE
     except:
-        context.bot.send_message(update.effective_chat.id, f'Введите число')
+        context.bot.send_message(update.effective_chat.id, f'Введите число от 1 до 28')
         return MOVE
     context.bot.send_message(update.effective_chat.id, f'На столе осталось {candy_count} конфет...')
     if candy_count <= max_candy_takes:  # Проверка выигрыша бота
@@ -82,7 +82,6 @@ def bot_move(update, context):  # ход бота
     else:  # передача хода игроку
         context.bot.send_message(update.effective_chat.id, f'На столе осталось {candy_count} конфет...')
         context.bot.send_message(update.effective_chat.id, 'Сколько конфет возьмёте?')
-        current_player = player_2 if current_player == player_1 else player_1
         return MOVE
 
 
