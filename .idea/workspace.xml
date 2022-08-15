@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3488e6e-a615-4b89-af62-d5a6f27d0d8e" name="Changes" comment="обновил seminar10">
-      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/homework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/homework/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/homework/actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/homework/correctdata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/homework/import_export.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/homework/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/homework/phonebook.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/homework/phonebook.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/homework/phonebook.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar7/homework/requirements.txt" afterDir="false" />
+    <list default="true" id="b3488e6e-a615-4b89-af62-d5a6f27d0d8e" name="Changes" comment="добавил ДЗ-3 конфликтология">
+      <change afterPath="$PROJECT_DIR$/python/znkomstvo_s_python/seminar10/homework/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GeekBrains.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GeekBrains.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Blank Requirements File" />
       </list>
     </option>
   </component>
@@ -335,7 +329,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660395588569</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="добавил homework seminar7">
+      <created>1660451716073</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1660451716073</updated>
+    </task>
+    <task id="LOCAL-00021" summary="добавил ДЗ-3 конфликтология">
+      <created>1660558535348</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1660558535348</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -365,6 +373,8 @@
     <MESSAGE value="обновил ДЗ по семинарам" />
     <MESSAGE value="обновил gitignore" />
     <MESSAGE value="обновил seminar10" />
-    <option name="LAST_COMMIT_MESSAGE" value="обновил seminar10" />
+    <MESSAGE value="добавил homework seminar7" />
+    <MESSAGE value="добавил ДЗ-3 конфликтология" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил ДЗ-3 конфликтология" />
   </component>
 </project>
