@@ -1,4 +1,0 @@
-mpmath==1.2.1
-russian-names==0.1.2
-sympy==1.10.1
-termcolor==1.1.0
