@@ -1,0 +1,40 @@
+body {
+    background-color: blanchedalmond;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    color: rgb(87, 95, 94);
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+blockquote {
+    background-color: aquamarine;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-transform: uppercase;
+}
+
+li {
+    font-size: 18px;
+    color: brown;
+}
+
+div {
+    text-align: center;
+    padding: 20px;
+}
