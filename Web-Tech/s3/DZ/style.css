@@ -1,0 +1,17 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: blanchedalmond;
+}
+
+.block {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.bigtext {
+    text-align: center;
+    font-size: 48px;
+    color: red;
+    padding-top: 50px;
+}

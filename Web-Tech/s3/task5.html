@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <style>
+            body {
+                font-family: 'Ubuntu', sans-serif;
+            }
+            div {
+                text-align: center;
+                font-size: 24px;
+            }
+        </style>
+    </head>
+    <body>
+        <script language="JavaScript">
+            let user_name = prompt('Enter UserName:');
+            function showMessage(entered_name) {
+                let message = `Hi, ${entered_name}`;
+                alert(message)
+            }
+            showMessage(user_name);
+        </script>
+
+        <div>
+            написать функцию, выводящую в диалоговом окне текст и переменную<br>
+            например "привет, user_name!", где user_name это внешняя переменная
+        </div>
+        
+    </body>
+</html>
